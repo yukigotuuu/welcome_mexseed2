@@ -262,6 +262,7 @@ margin:20px 0;
 
 
 
+
 @media screen and (max-width: 1280px){
 	.img-box{
 		justify-content: space-around;
@@ -270,14 +271,45 @@ margin:20px 0;
 	.img-box li{
 		margin-right: 30px;
 	}
-
-	
 }
+
 
 
 @media screen and (max-width: 960px){
+	.contact{
+	   height: 100%;
+}
+
+    .form{
+	   flex-direction: column;
+}
+
+    .form-left{
+	   margin-bottom:30px;
+}
+
+    .form-right{
+	   margin-left: 0;
+}
+
+
+    .form .name,
+    .form .email{
+	   width: 80%;
+}
+
+    .form .inquiry{
+	   width: 80%
+}
+
+    .contact button{
+	   font-size: 20px;
+	   padding: 5px 40px;
 
 }
+
+
+
 
 @media scerrn and(max-width: 480px){
 
